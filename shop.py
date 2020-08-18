@@ -21,7 +21,7 @@ def print_menu():
     Print the items in the menu dictionary.
     """
     print("Our menu:")
-    for item in cupcake_menu:
+    for item in menu:
         print("- \"%s\" (KD %s)" % (item, menu[item]))
 
 
@@ -33,7 +33,7 @@ def print_originals():
     """
     print("Our original flavor cupcakes (KD %s each):" % original_price)
     for item in original_flavors:
-    print("- \"%s\"" % item)
+       print("- \"%s\"" % item)
 
 
 def print_signatures():
