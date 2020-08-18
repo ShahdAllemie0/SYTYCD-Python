@@ -3,7 +3,7 @@ from shop import (
     print_originals,
     print_signatures,
     get_order,
-    print_order,
+    print_order
 )
 
 print_menu()
