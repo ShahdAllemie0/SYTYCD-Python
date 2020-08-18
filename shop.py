@@ -65,7 +65,7 @@ def get_order():
     """
     order_list = []
     order = input("What's your order? (Enter the exact spelling of the item you want. Type 'Exit' to end your order.)\n")
-    while order.lowercase() != "exit":
+    while order.lower() != "exit":
         if is_valid_order(order):
             order_list.append(order)
         order = input()
